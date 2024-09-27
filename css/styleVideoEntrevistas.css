@@ -1,0 +1,32 @@
+/* .videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+iframe{
+    width: 60%;
+    height: 60vh;
+    margin-top: 50px;
+    border: none;
+}
+
+
+@media screen and (max-width: 480px){
+
+    
+    iframe{
+        width: 90%;
+        height: 30vh;
+    }
+    
+}

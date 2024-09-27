@@ -1,0 +1,106 @@
+.box {
+    background-image: url(../img/fundoStorytelling.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 1rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.textos{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    text-align: left;
+    width: 40%;
+    margin-right: 150px;
+}
+
+.textos h1{
+    margin: 0;
+    font-size: 56px;
+    background-color: #111111;
+    padding: 0 10px;
+}
+.textos h2{
+    margin: 0;
+    font-size: 36px;
+    background-color: #111111;
+    padding: 0 10px;
+}
+
+.textos p{
+    font-size: 20px;
+    background-color: #111111;
+    padding: 10px;
+    line-height: 1.9;
+}
+
+
+
+.imagem {
+    width: 30%;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    
+    
+    .textos{
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    .textos h1{
+        margin: 0;
+        font-size: 36px;
+        background-color: black;
+        padding: 0 5px;
+    }
+    .textos h2{
+        margin: 0;
+        font-size: 36px;
+        background-color: black;
+        padding: 0 5px;
+    }
+    
+    .textos p{
+        font-size: 16px;
+        background-color: black;
+        padding: 0 5px;
+    }
+    
+    
+    
+    .imagem {
+        width: 30%;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

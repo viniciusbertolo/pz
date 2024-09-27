@@ -1,0 +1,36 @@
+.tituloTemas{
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    font-size:4em;
+    top: 60px;
+    margin-bottom: -20px;
+    color: #fff;
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+    font: 500 70px/1.2 "Oswald", sans-serif;
+  }
+  
+
+  .mainTemas p{
+      text-align: center;
+      padding: 30px;
+      padding-top: 90px;
+      color: #fff;
+      font: 300 12px/1.2 "Oswald", sans-serif;
+      font-size: 30px;
+  }
+
+  ::-webkit-scrollbar{
+    width: 2px;
+    background-color: black;
+  }
+  #progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 5px;
+    /* height: 100%; */
+    border-radius: 10px;
+    background: linear-gradient(to top,silver, midnightblue, darkblue, blue, darkblue, midnightblue);
+    z-index: 9;
+  }

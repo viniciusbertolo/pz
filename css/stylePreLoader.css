@@ -1,0 +1,36 @@
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  z-index: 9999999999;
+}
+.loader__layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #000;
+  z-index: 100;
+}
+.loader__container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 101;
+}
+.loader__container__counter {
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
