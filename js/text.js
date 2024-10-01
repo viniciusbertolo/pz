@@ -1,44 +1,101 @@
 // Dicionário de textos em diferentes idiomas
 const translations = {
     en: {
-        title1: "Digital and AI transformation starts with people – not with technology",
-        title2: "Multigenerational leadership is key to sucess and survival of your business",
-        title3: "Tranformation failure stops When you start appreciating the individuals with empathetic change management",
-        title4: "True innovation begins with human insight, technology is just the tool to bring it to life.",
-        about: "With global experience and deep expertise in strategic and operational people management as well as digitalization, Dr. Philipp Zimmermann has led teams and organizations through significant transformations and developed innovative HR solutions. As a Thought Leader, he engages with the leadership, the potential of digitalization and the development of the workplace - as well as its pragmatic implementation. He creates and leads change by combining a data-driven, entrepreneurial view with an empathetic approach.With an inclusive leadership approach, Zimmermann helps organizations and people to be future-ready and successful."
+        capa_1: "Senior Advisory",
+        capa_2: "Consulting",
+        capa_3: "Mentoring",
+        capa_4: "Key Notes",
+        title_impact: "Impact",
+        impact: "Zimmermann helps organizations and people build resilient cultures and business cases to be future-ready and successful. \n• HR and Digital Transformation \n• Organizational Change and Change Management \n• Strategic Workforce Planning and Development\n • Contract and Partner Management for Ecosystem\n • Thought Leadership \n• International, multi-generational Leadership",
+        title_experience: "Experience",
+        experience: "With over 20 years of global experience in strategic and operational people management as well as digitalization, Zimmermann has led teams and organizations through transformations and developed innovative solutions. Through leadership roles in corporations and consulting, he has developed a holistic perspective and diverse approaches for sustainable success. He creates and leads change by combining a data-driven, entrepreneurial view with an empathetic approach.",
+        title_insight: "Insight",
+        insight: "As a Thought Leader, Zimmermann engages with the leadership, the potential of digitalization and the development of the workplace - as well as its pragmatic implementation. He speaks regularly as an international keynote speaker and looks back on future-guiding research and studies with worldwide co-authors, including associations such as: World Federation for People Management Associations (WFPMA), World Economic Forum (WEF), European Association for People Management (EAPM), Association of Business Service Leaders DACH (ABSL), Associação Brasileira de Recursos Humanos (ABRH), Deutsche Gesellschaft für Personalführung DGFP, Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE), Stiftung der Deutschen Wirtschaft (sdw).",
+        parallax1:"Digital and AI transformation starts with people – not with technology.",
+        parallax2:"Multigenerational leadership is key to sucess and survival of your business.",
+        parallax3:"When you start appreciating the individuals, you enable true change and improve your business case.",
+        legal_notice:"Information according to § 5 TMG:",
+        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Germany",
     },
     pt: {
-        title1: "Transformação digital e IA começa com as pessoas – não com a tecnologia",
-        title2: "Lideranca multigeracional é chave para o sucesso e a sobrevivência em negócios ",
-        title3: "Faliar na transformação para quando você começa a apreciar o indivíduo com gestão de mudança empática",
-        title4: "A verdadeira inovação começa com a percepção humana, a tecnologia é apenas a ferramenta para dar vida a isso.",
-        about: "Com experiência global e profundo conhecimento em gestão estratégica e operacional de pessoas, além de digitalização, o Dr. Philipp Zimmermann liderou equipes e organizações através de transformações significativas e desenvolveu soluções inovadoras de RH. Como um Thought Leader, ele se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação pragmática. Ele cria e lidera mudanças ao combinar uma visão empreendedora orientada por dados com uma abordagem empática. Com uma abordagem de liderança inclusiva, Zimmermann ajuda organizações e pessoas a estarem preparadas para o futuro e a terem sucesso."
+        capa_1: "Assessoria Executiva",
+        capa_2: "Consultoria",
+        capa_3: "Mentoria",
+        capa_4: "Palestras",
+        title_impact: "Impacto",
+        impact: "Zimmermann ajuda organizações e pessoas a construir culturas resilientes e business cases para estarem preparadas para o futuro e terem sucesso. \n • Transformação de RH e Digital \n• Transformação Organizacional e Gestão de Mudanças \n• Planejamento Estratégico e Desenvolvimento das Pessoas \\n• Gestão de Contratos e Parcerias para Ecossistemas \n • Thought Leadership\n • Liderança Internacional e Multigeracional",
+        title_experience: "Experiência",
+        experience: "Com mais de 20 anos de experiência global em gestão estratégica e operacional de pessoas, além de digitalização, Zimmermann liderou equipes e organizações através de transformações e desenvolveu soluções inovadoras. Através de papéis de liderança em corporações e consultoria, ele desenvolveu uma perspectiva holística e abordagens diversas para sucesso sustentável. Ele cria e lidera mudanças ao combinar uma visão empreendedora orientada por dados com uma abordagem empática.",
+        title_insight: "Visão",
+        insight: "Como um Thought Leader, Zimmermann se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação pragmática. Ele fala regularmente como palestrante internacional e olha para trás em pesquisas e estudos voltados para o futuro com co-autores em todo o mundo, incluindo associações como: World Federation for People Management Associations (WFPMA), World Economic Forum (WEF), European Association for People Management (EAPM), Association of Business Service Leaders DACH (ABSL), Associação Brasileira de Recursos Humanos (ABRH), Deutsche Gesellschaft für Personalführung DGFP, Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE), Stiftung der Deutschen Wirtschaft (sdw).",
+        parallax1:"Transformação digital e IA começa com as pessoas – não com a tecnologia.",
+        parallax2:"Lideranca multigeracional é chave para o sucesso e a sobrevivência em negócios.",
+        parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",
+        legal_notice:"Informações de acordo com § 5 TMG:",
+        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Alemanha",
     },
     deu: {
-        title1: "Digitale und AI Transformation beginnt mit dem Menschen - nicht mit der Technologie",
-        title2: "Multigenerationale Führung ist ein Schlüssel zum Erfolg und unternehmerischem Überleben",
-        title3: "Erfolglose Transformation endet, wenn man das Individuum mit empathischen Change Management wertschätzt",
-        title4: "Wahre Innovation beginnt mit menschlicher Einsicht – die Technologie ist nur das Werkzeug, um sie zum Leben zu erwecken.",
-        about: "Mit globaler Erfahrung und fundierter Expertise im strategischen und operativen Personalmanagement sowie in Digitalisierung hat Dr. Philipp Zimmermann Teams und Organisationen durch bedeutende Transformationen geführt und innovative HR-Lösungen entwickelt.Als Thought Leader befasst er sich mit Leadership, dem Potenzial von Digitalisierung und der Weiterentwicklung der Arbeitswelt - sowie pragmatischen Wegen der Umsetzung. Er erzeugt und leitet Veränderung, indem er einen datengetriebenen Unternehmerblick mit empathischer Vorgehensweise kombiniert. Mit seinem inklusiven Führungsansatz hilft Zimmermann Organisationen und Menschen zukunftsfähig ausrichten und erfolgreich machen."
+        capa_1: "Senior Advisory",
+        capa_2: "Consulting",
+        capa_3: "Mentoring",
+        capa_4: "Key Notes",
+        title_impact: "Impact",
+        impact: "Zimmermann hilft Organisationen und Menschen, resiliente Kulturen und Business Cases zu entwickeln, um zukunftsfähig und erfolgreich zu sein.\n • HR- und Digital-Transformation \n• Organisationale Veränderung und Change Management \n• Strategische Personalplanung und -entwicklung n• Verhandlungs- und Partnermanagement für Ecosystemez\n • Thought Leadership \n• Internationale, multi-generationale Führung",
+        title_experience: "Erfahrung",
+        experience: "Mit über 20 Jahren globaler Erfahrung in strategischem und operativem Personalmanagement sowie Digitalisierung hat Zimmermann Teams und Organisationen durch Transformationen geführt und innovative Lösungen entwickelt. Durch Führungsrollen im Konzern und in der Beratung hat er einen ganzheitlichen Blick und vielseitige Ansätze für nachhaltigen Erfolg entwickelt. Er erzeugt und leitet Veränderung, indem er einen datengetriebenen Unternehmerblick mit empathischer Vorgehensweise kombiniert.",
+        title_insight: "Insight",
+        insight: "Als Thought Leader befasst sich Zimmermann mit Leadership, dem Potenzial von Digitalisierung und der Weiterentwicklung der Arbeitswelt - sowie pragmatischen Wegen der Umsetzung. Er ist regelmäßig als internationaler Keynote Speaker tätig und blickt auf zukunftsweisende Forschung und Studien mit Co-Autoren weltweit zurück, darunter Verbände wie: World Federation for People Management Associations (WFPMA), World Economic Forum (WEF), European Association for People Management (EAPM), Association of Business Service Leaders DACH (ABSL), Associação Brasileira de Recursos Humanos (ABRH), Deutsche Gesellschaft für Personalführung DGFP, Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE), Stiftung der Deutschen Wirtschaft (sdw).",
+        parallax1:"Digitale und AI Transformation beginnt mit dem Menschen – nicht mit der Technologie.",
+        parallax2:"Multigenerationale Führung ist ein Schlüssel zum Erfolg und unternehmerischem Überleben.",
+        parallax3:"Wenn man das Individuum wertzuschätzen beginnt, ermöglicht man echten Wandel und verbessert das Geschäftsergebnis.",
+        legal_notice:"Angaben gemäß § 5 TMG:",
+        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Deutschland",
     }
 };
 
+
 // Função para mudar o idioma
 function setLanguage(language) {
-    const title1 = document.getElementById('title1');
-    const title2 = document.getElementById('title2');
-    const title3 = document.getElementById('title3');
-    const title4 = document.getElementById('title4');
+    const capa_1 = document.getElementById('capa_1');
+    const capa_2 = document.getElementById('capa_2');
+    const capa_3 = document.getElementById('capa_3');
+    const capa_4 = document.getElementById('capa_4');
+    const title_impact = document.getElementById('title_impact');
+    const impact = document.getElementById('impact');
+    const title_experience = document.getElementById('title_experience');
+    const experience = document.getElementById('experience');
+    const title_insight = document.getElementById('title_insight');
+    const insight = document.getElementById('insight');
+    const parallax1 = document.getElementById('parallax1');
+    const parallax2 = document.getElementById('parallax2');
+    const parallax3 = document.getElementById('parallax3');
+    const legal_notice = document.getElementById('legal_notice');
+    const adress = document.getElementById('adress');
 
-    const about = document.getElementById('about');
+
+    impact.innerHTML = translations[language].impact.replace(/\n/g, '<br>');
+  
 
     // Atualiza os textos com base no idioma selecionado
-    title1.textContent = translations[language].title1;
-    title2.textContent = translations[language].title2;
-    title3.textContent = translations[language].title3;
-    title4.textContent = translations[language].title4;
+    capa_1.textContent = translations[language].capa_1;
+    capa_2.textContent = translations[language].capa_2;
+    capa_3.textContent = translations[language].capa_3;
+    capa_4.textContent = translations[language].capa_4;
+    title_impact.textContent = translations[language].title_impact;
+    // impact.textContent = translations[language].impact;
+    title_experience.textContent = translations[language].title_experience;
+    experience.textContent = translations[language].experience;
+    title_insight.textContent = translations[language].title_insight;
+    insight.textContent = translations[language].insight;
+    parallax1.textContent = translations[language].parallax1;
+    parallax2.textContent = translations[language].parallax2;
+    parallax3.textContent = translations[language].parallax3;
+    legal_notice.textContent = translations[language].legal_notice;
+    adress.textContent = translations[language].adress;
 
-    about.textContent = translations[language].about;
+    
+    
+
 
     // Opcional: Salva a preferência do usuário no localStorage
     localStorage.setItem('language', language);

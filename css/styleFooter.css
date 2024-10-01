@@ -36,11 +36,9 @@
 .social_list .link:hover {
     /* background-clip:text; */
     border: 1px solid white;
-    padding: 5px;
     font-size: 30px;
     color: white;
-    border-radius: 50%;
-    transform: rotate(0deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
     
   }
 
@@ -61,6 +59,19 @@
     color: white;
 
   }
+
+  /* Adiciona a bandeira do Brasil */
+.social_list .link.instagram::after {
+  content: "";
+  background-image: url('../img/flag/brazil.png');
+  background-size: cover;
+  position: absolute;
+  width: 15px; /* Ajuste o tamanho conforme necessário */
+  height: 10px; /* Ajuste o tamanho conforme necessário */
+  bottom: 10px; /* Ajuste a posição conforme necessário */
+  left: 10px; /* Ajuste a posição conforme necessário */
+  border-radius: 2px;
+}
   
   .social_list .link.whats {
     background-color: #25D366;
@@ -68,7 +79,7 @@
   }
   
   .social_list .link.facebook {
-    background-color: #3B5998;
+    background-color: red;
     color: white;
   }
   
@@ -77,6 +88,10 @@
     color: white;
   }
 
+
+  .legal_notice{
+    margin-top: 3em;
+  }
 .copy_right{
     margin-top: 3em;
 }
