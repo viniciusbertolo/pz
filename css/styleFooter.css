@@ -91,6 +91,10 @@
 
   .legal_notice{
     margin-top: 3em;
+    cursor: pointer;
+  }
+  .legal_notice:hover{
+    border-bottom: 1px solid white;
   }
 .copy_right{
     margin-top: 3em;

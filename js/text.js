@@ -14,6 +14,7 @@ const translations = {
         parallax1:"Digital and AI transformation starts with people – not with technology.",
         parallax2:"Multigenerational leadership is key to sucess and survival of your business.",
         parallax3:"When you start appreciating the individuals, you enable true change and improve your business case.",
+        legal_notice_call:"Legal Notice",
         legal_notice:"Information according to § 5 TMG:",
         adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Germany",
     },
@@ -23,14 +24,15 @@ const translations = {
         capa_3: "Mentoria",
         capa_4: "Palestras",
         title_impact: "Impacto",
-        impact: "Zimmermann ajuda organizações e pessoas a construir culturas resilientes e business cases para estarem preparadas para o futuro e terem sucesso. \n • Transformação de RH e Digital \n• Transformação Organizacional e Gestão de Mudanças \n• Planejamento Estratégico e Desenvolvimento das Pessoas \\n• Gestão de Contratos e Parcerias para Ecossistemas \n • Thought Leadership\n • Liderança Internacional e Multigeracional",
+        impact: "Zimmermann ajuda organizações e pessoas a construir culturas resilientes e business cases para estarem preparadas para o futuro e terem sucesso. \n • Transformação de RH e Digital \n• Transformação Organizacional e Gestão de Mudanças \n• Planejamento Estratégico e Desenvolvimento das Pessoas \n• Gestão de Contratos e Parcerias para Ecossistemas \n • Thought Leadership\n • Liderança Internacional e Multigeracional",
         title_experience: "Experiência",
         experience: "Com mais de 20 anos de experiência global em gestão estratégica e operacional de pessoas, além de digitalização, Zimmermann liderou equipes e organizações através de transformações e desenvolveu soluções inovadoras. Através de papéis de liderança em corporações e consultoria, ele desenvolveu uma perspectiva holística e abordagens diversas para sucesso sustentável. Ele cria e lidera mudanças ao combinar uma visão empreendedora orientada por dados com uma abordagem empática.",
         title_insight: "Visão",
         insight: "Como um Thought Leader, Zimmermann se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação pragmática. Ele fala regularmente como palestrante internacional e olha para trás em pesquisas e estudos voltados para o futuro com co-autores em todo o mundo, incluindo associações como: World Federation for People Management Associations (WFPMA), World Economic Forum (WEF), European Association for People Management (EAPM), Association of Business Service Leaders DACH (ABSL), Associação Brasileira de Recursos Humanos (ABRH), Deutsche Gesellschaft für Personalführung DGFP, Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE), Stiftung der Deutschen Wirtschaft (sdw).",
         parallax1:"Transformação digital e IA começa com as pessoas – não com a tecnologia.",
         parallax2:"Lideranca multigeracional é chave para o sucesso e a sobrevivência em negócios.",
-        parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",
+        parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",        
+        legal_notice_call:"Aviso Legal",
         legal_notice:"Informações de acordo com § 5 TMG:",
         adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Alemanha",
     },
@@ -48,6 +50,7 @@ const translations = {
         parallax1:"Digitale und AI Transformation beginnt mit dem Menschen – nicht mit der Technologie.",
         parallax2:"Multigenerationale Führung ist ein Schlüssel zum Erfolg und unternehmerischem Überleben.",
         parallax3:"Wenn man das Individuum wertzuschätzen beginnt, ermöglicht man echten Wandel und verbessert das Geschäftsergebnis.",
+        legal_notice_call:"Rechtlicher Hinweis",
         legal_notice:"Angaben gemäß § 5 TMG:",
         adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Deutschland",
     }
@@ -69,11 +72,13 @@ function setLanguage(language) {
     const parallax1 = document.getElementById('parallax1');
     const parallax2 = document.getElementById('parallax2');
     const parallax3 = document.getElementById('parallax3');
+    const legal_notice_call = document.getElementById('legal_notice_call');
     const legal_notice = document.getElementById('legal_notice');
     const adress = document.getElementById('adress');
 
 
     impact.innerHTML = translations[language].impact.replace(/\n/g, '<br>');
+    
   
 
     // Atualiza os textos com base no idioma selecionado
@@ -90,6 +95,7 @@ function setLanguage(language) {
     parallax1.textContent = translations[language].parallax1;
     parallax2.textContent = translations[language].parallax2;
     parallax3.textContent = translations[language].parallax3;
+    legal_notice_call.textContent = translations[language].legal_notice_call;
     legal_notice.textContent = translations[language].legal_notice;
     adress.textContent = translations[language].adress;
 

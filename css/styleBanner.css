@@ -8,6 +8,7 @@
 
   }
 
+
  
 
   .mySwiper2 .swiper-slide {
@@ -55,9 +56,18 @@
   }
   .mySwiper2 .swiper-slide .caption .title {
     width: 100%;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 100%;
+    /* letter-spacing: 0.1px; */
+    text-align: center;
+    font-weight: 700;
+  }
+  .mySwiper2 .swiper-slide .caption .texto h1 {
+    width: 100%;
     font-size: 56px;
     text-transform: uppercase;
-    line-height: 150%;
+    line-height: 100%;
     /* letter-spacing: 0.1px; */
     text-align: center;
     font-weight: 700;
@@ -87,12 +97,23 @@
     }
 
     .mySwiper2 .swiper-slide .caption .title {
-      width: 80%;
-      font-size: 36px;
+      width: 100%;
+      font-size: 16px;
       text-transform: uppercase;
-      line-height: 150%;
+      line-height: 100%;
       /* letter-spacing: 0.1px; */
       text-align: center;
+    }
+
+    .mySwiper2 .swiper-slide .caption .texto h1 {
+      width: 100%;
+      font-size: 24px;
+      text-transform: uppercase;
+      line-height: 100%;
+      /* letter-spacing: 0.1px; */
+      text-align: center;
+      font-weight: 700;
+
     }
 
     

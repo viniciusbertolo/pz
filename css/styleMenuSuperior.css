@@ -1,0 +1,82 @@
+.menu-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #111111;
+    color: white;
+    padding: 15px;
+    display: none; /* Inicialmente, o menu está oculto */
+    z-index: 1001; /* Fica acima do banner */
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menu-superior h1{
+    font-size: 24px;
+    width: fit-content;
+}
+
+
+.menu-superior nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    width: fit-content;
+}
+
+.menu-superior nav ul li{
+    width: 36px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.menu-superior nav ul li:hover{
+    transform: scale(1.1);
+}
+.menu-superior nav ul li img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .menu-superior {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #111111;
+        color: white;
+        padding: 15px;
+        display: none; /* Inicialmente, o menu está oculto */
+        z-index: 1001; /* Fica acima do banner */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .menu-superior h1{
+        font-size: 14px;
+        width: fit-content;
+    }
+
+    .menu-superior nav ul{
+        gap: 16px;
+    }
+
+    .menu-superior nav ul li{
+        width: 24px;
+        height: 16px;
+    }
+}
