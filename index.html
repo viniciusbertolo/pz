@@ -207,10 +207,12 @@
                     swiper.style.opacity = '0'; // Oculta o banner suavemente
                     swiper.style.pointerEvents = 'none'; // Desabilita a interação com o banner
                     menuSuperior.style.display = 'flex'; // Mostra o menu superior
+                    menuSuperior.style.opacity = '1'; // Mostra o menu superior
                 } else {
                     swiper.style.opacity = '1'; // Mostra o banner
                     swiper.style.pointerEvents = 'all'; // Habilita a interação com o banner
                     menuSuperior.style.display = 'none'; // Oculta o menu superior
+                    menuSuperior.style.opacity = '0';
                 }
             });
         </script>
