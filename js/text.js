@@ -16,7 +16,9 @@ const translations = {
         parallax3:"When you start appreciating the individuals, you enable true change and improve your business case.",
         legal_notice_call:"Legal Notice",
         legal_notice:"Information according to § 5 TMG:",
-        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Germany",
+        adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Germany",
+        menuSup:"Senior Advisory \n Consulting \n Mentoring \n Key Notes",
+        contact:"Contact"
     },
     pt: {
         capa_1: "Assessoria Executiva",
@@ -34,7 +36,9 @@ const translations = {
         parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",        
         legal_notice_call:"Aviso Legal",
         legal_notice:"Informações de acordo com § 5 TMG:",
-        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Alemanha",
+        adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Alemanha",
+        menuSup:"Assessoria Executiva \n Consultorias \n Mentorias \n Palestras",
+        contact:"Contato"
     },
     deu: {
         capa_1: "Senior Advisory",
@@ -50,9 +54,11 @@ const translations = {
         parallax1:"Digitale und AI Transformation beginnt mit dem Menschen – nicht mit der Technologie.",
         parallax2:"Multigenerationale Führung ist ein Schlüssel zum Erfolg und unternehmerischem Überleben.",
         parallax3:"Wenn man das Individuum wertzuschätzen beginnt, ermöglicht man echten Wandel und verbessert das Geschäftsergebnis.",
-        legal_notice_call:"Rechtlicher Hinweis",
+        legal_notice_call:"Impressum",
         legal_notice:"Angaben gemäß § 5 TMG:",
-        adress:"Seestraße 33 - 14624 Dallgow-Döberitz, Deutschland",
+        adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Deutschland",
+        menuSup:"Senior Advisory \n Consulting \n Mentoring \n Key Notes",
+        contact:"Kontakt"
     }
 };
 
@@ -75,9 +81,13 @@ function setLanguage(language) {
     const legal_notice_call = document.getElementById('legal_notice_call');
     const legal_notice = document.getElementById('legal_notice');
     const adress = document.getElementById('adress');
+    const menuSup = document.getElementById('menuSup');
+    const contact = document.getElementById('contact');
 
 
     impact.innerHTML = translations[language].impact.replace(/\n/g, '<br>');
+    menuSup.innerHTML = translations[language].menuSup.replace(/\n/g, '<br>');
+    adress.innerHTML = translations[language].adress.replace(/\n/g, '<br>');
     
   
 
@@ -97,7 +107,8 @@ function setLanguage(language) {
     parallax3.textContent = translations[language].parallax3;
     legal_notice_call.textContent = translations[language].legal_notice_call;
     legal_notice.textContent = translations[language].legal_notice;
-    adress.textContent = translations[language].adress;
+    contact.textContent = translations[language].contact;
+    // teste.textContent = translations[language].teste;
 
     
     

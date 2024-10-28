@@ -179,7 +179,17 @@
 
         <div class="menu-superior">
             <!-- Conteúdo do menu superior que aparecerá ao rolar a página -->
-            <h1>Dr. Philipp Zimmermann</h1>
+            <!-- <h1>Dr. Philipp Zimmermann</h1> -->
+            <div class="outer">
+                <h1>Dr. Philipp Zimmermann &nbsp;
+                <div class="inner">
+                  <span>
+                    <p id="menuSup"></p>
+                  </span>
+                </div>
+                  </h1>
+              </div>
+              
             <nav>
                 <ul>
                     <li onclick="setLanguage('pt')">
@@ -318,7 +328,7 @@
         <!-- <div class="textoParallax" id="title4"></div> -->
         <div class="parallax"></div>
 
-        <div class="textoParallax" id="parallax1">
+        <div class="textoParallax" id="parallax3">
 
         </div>
 
@@ -330,7 +340,7 @@
 
         <div class="parallax3"></div>
 
-        <div class="textoParallax" id="parallax3">
+        <div class="textoParallax" id="parallax1">
 
         </div>
 
@@ -399,9 +409,10 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h4 id="legal_notice"></h4>
+                    <h4 id="legal_notice"></h4><br>
+                    <p>Dr. Philipp Zimmermann</p>
                     <p id="adress"></p>
-                    <p>Email: philipp.zimmermann.vp@gmail.com</p>
+                    <p><span id="contact"></span>: <br>philipp.zimmermann.vp@gmail.com</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
