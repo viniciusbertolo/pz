@@ -17,7 +17,7 @@ const translations = {
         legal_notice_call:"Legal Notice",
         legal_notice:"Information according to § 5 TMG:",
         adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Germany",
-        menuSup:"Senior Advisory \n Consulting \n Mentoring \n Key Notes",
+        menuSup:"Senior Advisory • Consulting • Mentoring • Key Notes",
         contact:"Contact"
     },
     pt: {
@@ -37,7 +37,7 @@ const translations = {
         legal_notice_call:"Aviso Legal",
         legal_notice:"Informações de acordo com § 5 TMG:",
         adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Alemanha",
-        menuSup:"Assessoria Executiva \n Consultorias \n Mentorias \n Palestras",
+        menuSup:"Assessoria Executiva • Consultorias • Mentorias • Palestras",
         contact:"Contato"
     },
     deu: {
@@ -57,7 +57,7 @@ const translations = {
         legal_notice_call:"Impressum",
         legal_notice:"Angaben gemäß § 5 TMG:",
         adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Deutschland",
-        menuSup:"Senior Advisory \n Consulting \n Mentoring \n Key Notes",
+        menuSup:"Senior Advisory • Consulting • Mentoring • Key Notes",
         contact:"Kontakt"
     }
 };

@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: url("../img/sobreEventos/evento1.jpg");
+    background-image: url("../img/foto_8.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -18,7 +18,7 @@
 
   .parallax2 {
     /* The image used */
-    background-image: url("../img/sobreEventos/evento2.jpg");
+    background-image: url("../img/foto_9.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -36,7 +36,7 @@
 
   .parallax3 {
     /* The image used */
-    background-image: url("../img/sobreEventos/evento3.jpg");
+    background-image: url("../img/foto_10.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -64,7 +64,7 @@
 
 
   .textoParallax{
-      background: #111;
+      background: #444444;
       color: white;
       font-size:30px;
       text-align: center;
@@ -89,7 +89,7 @@
       width: 200px;
       height: 50px;
       line-height: 48px;
-      background: #000;
+      background: #444444;
       text-transform: uppercase;
       text-decoration: none;
       font:"Oswald", sans-serif;
@@ -154,7 +154,7 @@
       right: 1px;
       bottom: 1px;
       text-align: center;
-      background:#0c0c0c;
+      background:#444444;
       color: rgba(255, 255, 255, 0.5);
       transition: 0.5s;
       z-index: 1;
