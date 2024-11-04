@@ -8,9 +8,9 @@ const translations = {
         title_impact: "Impact",
         impact: "Zimmermann helps organizations and people build resilient cultures and business cases to be future-ready and successful. \n• HR and Digital Transformation \n• Organizational Change and Change Management \n• Strategic Workforce Planning and Development\n • Contract and Partner Management for Ecosystems\n • Thought Leadership \n• International, Multi-generational Leadership",
         title_experience: "Experience",
-        experience: "With over 20 years of global experience in strategic and operational people management as well as digitalization, Zimmermann has led teams and organizations through transformations and developed innovative solutions. Through leadership roles in corporations and consulting, he has developed a holistic perspective and diverse approaches for sustainable success. He creates and leads change by combining a data-driven, entrepreneurial view with an empathetic approach.",
+        experience: "With over 20 years of global experience in strategic and operational people management as well as digitalization, Zimmermann has led teams and organizations through transformations and developed innovative solutions. Through leadership roles in corporations and consulting, he has developed a holistic perspective and diverse approaches for sustainable success. \n\nHe creates and leads change by combining a data-driven, entrepreneurial view with an empathetic approach.",
         title_insight: "Insight",
-        insight: "As a Thought Leader, Zimmermann engages with leadership, the potential of digitalization and the development of the workplace - as well as its implementation. He speaks regularly as an international keynote speaker and looks back on future-guiding research and studies, including collaboration with associations such as: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
+        insight: "As a Thought Leader, Zimmermann engages with leadership, the potential of digitalization and the development of the workplace - as well as its implementation. \n\nHe speaks regularly as an international keynote speaker and looks back on future-guiding research and studies, including collaboration with associations such as: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
         parallax1:"Digital and AI transformation starts with people – not with technology.",
         parallax2:"Multigenerational leadership is key to sucess and survival of your business.",
         parallax3:"When you start appreciating the individuals, you enable true change and improve your business case.",
@@ -28,9 +28,9 @@ const translations = {
         title_impact: "Impacto",
         impact: "Zimmermann ajuda organizações e pessoas a construir culturas resilientes e business cases para estarem preparadas para o futuro e terem sucesso. \n • Transformação de RH e Digital \n• Transformação Organizacional e Gestão de Mudanças \n• Planejamento Estratégico e Desenvolvimento das Pessoas \n• Gestão de Contratos e Parcerias para Ecossistemas \n • Thought Leadership\n • Liderança Internacional e Multigeracional",
         title_experience: "Experiência",
-        experience: "Com mais de 20 anos de experiência global em gestão estratégica e operacional de pessoas, além de digitalização, Zimmermann liderou equipes e organizações através de transformações e desenvolveu soluções inovadoras. Através de papéis de liderança em corporações e consultoria, ele desenvolveu uma perspectiva holística e abordagens diversas para sucesso sustentável. Ele cria e lidera mudanças ao combinar uma visão empreendedora orientada por dados com uma abordagem empática.",
+        experience: "Com mais de 20 anos de experiência global em gestão estratégica e operacional de pessoas, além de digitalização, Zimmermann liderou equipes e organizações através de transformações e desenvolveu soluções inovadoras. Através de papéis de liderança em corporações e consultoria, ele desenvolveu uma perspectiva holística e abordagens diversas para sucesso sustentável. \n\nEle cria e lidera mudanças ao combinar uma visão empreendedora orientada por dados com uma abordagem empática.",
         title_insight: "Visão",
-        insight: "Como um Thought Leader, Zimmermann se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação. Ele fala regularmente como palestrante internacional e olha para trás em pesquisas e estudos voltados para o futuro, incluindo colaborações com associações como: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
+        insight: "Como um Thought Leader, Zimmermann se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação. \n\nEle fala regularmente como palestrante internacional e olha para trás em pesquisas e estudos voltados para o futuro, incluindo colaborações com associações como: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
         parallax1:"Transformação digital e IA começa com as pessoas – não com a tecnologia.",
         parallax2:"Lideranca multigeracional é chave para o sucesso e a sobrevivência em negócios.",
         parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",        
@@ -46,11 +46,11 @@ const translations = {
         capa_3: "Mentoring",
         capa_4: "Key Notes",
         title_impact: "Impact",
-        impact: "Zimmermann hilft Organisationen und Menschen, resiliente Kulturen und Business Cases zu entwickeln, um zukunftsfähig und erfolgreich zu sein.\n • HR- und Digital-Transformation \n• Organisationale Veränderung und Change Management \n• Strategische Personalplanung und -entwicklung n• Verhandlungs- und Partnermanagement für Ecosystemez\n • Thought Leadership \n• Internationale, multi-generationale Führung",
+        impact: "Zimmermann hilft Organisationen und Menschen, resiliente Kulturen und Business Cases zu entwickeln, um zukunftsfähig und erfolgreich zu sein.\n • HR- und Digital-Transformation \n• Organisationale Veränderung und Change Management \n• Strategische Personalplanung und -entwicklung \n• Verhandlungs- und Partnermanagement für Ecosysteme\n • Thought Leadership \n• Internationale, Multi-generationale Führung",
         title_experience: "Erfahrung",
-        experience: "Mit über 20 Jahren globaler Erfahrung in strategischem und operativem Personalmanagement sowie Digitalisierung hat Zimmermann Teams und Organisationen durch Transformationen geführt und innovative Lösungen entwickelt. Durch Führungsrollen im Konzern und in der Beratung hat er einen ganzheitlichen Blick und vielseitige Ansätze für nachhaltigen Erfolg entwickelt. Er erzeugt und leitet Veränderung, indem er einen datengetriebenen Unternehmerblick mit empathischer Vorgehensweise kombiniert.",
+        experience: "Mit über 20 Jahren globaler Erfahrung in strategischem und operativem Personalmanagement sowie Digitalisierung hat Zimmermann Teams und Organisationen durch Transformationen geführt und innovative Lösungen entwickelt. Durch Führungsrollen im Konzern und in der Beratung hat er einen ganzheitlichen Blick und vielseitige Ansätze für nachhaltigen Erfolg entwickelt. \n\nEr erzeugt und leitet Veränderung, indem er einen datengetriebenen Unternehmerblick mit empathischer Vorgehensweise kombiniert.",
         title_insight: "Insight",
-        insight: "Als Thought Leader befasst sich Zimmermann mit Leadership, dem Potenzial von Digitalisierung und der Weiterentwicklung der Arbeitswelt - sowie Wegen der Umsetzung. Er ist regelmäßig als internationaler Keynote Speaker tätig und blickt auf zukunftsweisende Forschung und Studien zurück, darunter Zusammenarbeit mit Verbänden wie: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
+        insight: "Als Thought Leader befasst sich Zimmermann mit Leadership, dem Potenzial von Digitalisierung und der Weiterentwicklung der Arbeitswelt - sowie Wegen der Umsetzung. \n\nEr ist regelmäßig als internationaler Keynote Speaker tätig und blickt auf zukunftsweisende Forschung und Studien zurück, darunter Zusammenarbeit mit Verbänden wie: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
         parallax1:"Digitale und AI Transformation beginnt mit dem Menschen – nicht mit der Technologie.",
         parallax2:"Multigenerationale Führung ist ein Schlüssel zum Erfolg und unternehmerischem Überleben.",
         parallax3:"Wenn man das Individuum wertzuschätzen beginnt, ermöglicht man echten Wandel und verbessert das Geschäftsergebnis.",
@@ -86,6 +86,8 @@ function setLanguage(language) {
 
 
     impact.innerHTML = translations[language].impact.replace(/\n/g, '<br>');
+    experience.innerHTML = translations[language].experience.replace(/\n/g, '<br>');
+    insight.innerHTML = translations[language].insight.replace(/\n/g, '<br>');
     menuSup.innerHTML = translations[language].menuSup.replace(/\n/g, '<br>');
     adress.innerHTML = translations[language].adress.replace(/\n/g, '<br>');
     
@@ -99,9 +101,9 @@ function setLanguage(language) {
     title_impact.textContent = translations[language].title_impact;
     // impact.textContent = translations[language].impact;
     title_experience.textContent = translations[language].title_experience;
-    experience.textContent = translations[language].experience;
+    // experience.textContent = translations[language].experience;
     title_insight.textContent = translations[language].title_insight;
-    insight.textContent = translations[language].insight;
+    // insight.textContent = translations[language].insight;
     parallax1.textContent = translations[language].parallax1;
     parallax2.textContent = translations[language].parallax2;
     parallax3.textContent = translations[language].parallax3;
