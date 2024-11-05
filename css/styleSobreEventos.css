@@ -203,12 +203,12 @@
     
       .parallax3 {
         
-      
+        background-image: url("../img/foto_10_cel.jpg");
      
         min-height: 600px; 
         /* Create the parallax scrolling effect */
         background-attachment:scroll;
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
       }
