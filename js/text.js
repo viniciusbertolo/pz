@@ -33,7 +33,7 @@ const translations = {
         insight: "Como um Thought Leader, Zimmermann se envolve com a liderança, o potencial da digitalização e o desenvolvimento do mundo de trabalho — assim como com sua implementação. \n\nEle fala regularmente como palestrante internacional e olha para trás em pesquisas e estudos voltados para o futuro, incluindo colaborações com associações como: WFPMA, WEF, EAPM, ABSL, DGFP, SDW, ABRH, SEBRAE.",
         parallax1:"Transformação digital e IA começa com as pessoas – não com a tecnologia.",
         parallax2:"Lideranca multigeracional é chave para o sucesso e a sobrevivência em negócios.",
-        parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora seu caso de negócio.",        
+        parallax3:"Quando você começa a valorizar o indivíduo, você permite uma verdadeira mudança e melhora os seus resultados.",        
         legal_notice_call:"Aviso Legal",
         legal_notice:"Informações de acordo com § 5 TMG:",
         adress:"Seestraße 33 \n 14624 Dallgow-Döberitz, Alemanha",
